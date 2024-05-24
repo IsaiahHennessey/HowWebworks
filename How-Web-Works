@@ -1,0 +1,12 @@
+1. What is Http? Http Is a set of rules with how you communicate between a browser and a web server.
+2. What is URL? Url's are unique identifiers used to locate anything on the internet. It tells a web browser how and where to retrieve a resource. There's a protocol, domain, and a path in Url's
+3. What is DNS? Stands for Domain Name System, they act like a phone book for the web. it maps human readable url's to the ip adress that host that site.
+4. What is a query string? A query string is a way to pass information to a server through a URL. It can be used for search queries, filtering, and tracking.
+5. What are two HTTP verbs and how are they diffrent? Some methods get and put. Get retrieves something from the server. Put completly replaces a resource on the server.
+6. What is an HTTP request? Its a request to the server sent from a client to request data or perform actions on the server.
+7. What is an HTTP response? It's a structured message sent by a server in reply to a client's Http request.
+8. What is an HTTP header? Give a couple of request and response headers you have seen. Request headers provide information from the client side to the server, influencing how the server processes the request.
+A request example looks like www.example.com, while a response looks like `Content-Type: text/html; charset= UTF-8`
+9. What are the processes that happen when you type "http://somesite.com/some/page.html" into a browser? First it parses the url to determine the protocol, domain, and path. then it checks the browser to see if its cached if not it queries to the dns server,
+the dns server then responds with the ip address. after it performs a TCP handshake with the server, followed by sending an Http Get request to the server. The server then processes the request, locates the resources, and prepares the response.
+The browser then receives the Http response from the server. Lastly the browser parses the Html, fetches additional resources, applies styles, executes scripts, and renders the content to the screen.
